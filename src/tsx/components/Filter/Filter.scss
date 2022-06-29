@@ -1,0 +1,19 @@
+.filter{
+  display: flex;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  &-item{
+    white-space: nowrap;
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: ease-out 0.3s;
+    &.active{
+      color: #fff;
+      background: #000;
+    }
+  }
+}
